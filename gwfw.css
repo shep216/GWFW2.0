@@ -4,6 +4,15 @@
     padding: 0px;
     box-sizing: border-box; }
 
+/* Color Pallette:
+    (LATER USE - Need to darken all)
+    #A3586D
+    #5C4A72
+    #F3B05A
+    #F4874B
+    #F46A4E
+*/
+
 body { font-family: Helvetica; }
 fieldset { width: 450px; }
 a { text-decoration: none;
