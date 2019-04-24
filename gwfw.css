@@ -37,15 +37,19 @@ a img { border: none;}
 
 #donate {background-color: maroon; }
 
-#donate:hover,
-#active_donate {
+#donate:hover {
     background-color: red;
     color: #f2f2f2 }
+#active_donate {
+    font-weight: bold;
+    text-decoration: underline;}
 
-.topnav a:hover,
-.topnav a.active {
+.topnav a:hover{
     background-color: #ddd;
     color: black; }
+.topnav a.active {
+    font-weight: bold;
+    text-decoration: underline;}
 /*################################################################*/
 
 
