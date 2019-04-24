@@ -1,126 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Contact Us</title>
-<style>
-* { margin: 0px;
-    padding: 0px;
-    box-sizing: border-box; }
-body { font-family: Helvetica; }
-fieldset { width: 450px; }
-a { text-decoration: none;
-	outline: none; }
-a img { border: none;}
-.clr { clear: both; }
-.footer-main { width: 100%;
-		height: auto;
-		margin: auto;
-		background-color: #3d3d3d;
-		padding: 30px 20px; }
-.footer-inner { width: 1200px;
-		height: auto;
-		margin: auto; }
-.footer-left { width: 425px;
-		height: auto;
-		float: left;
-		align: center;
-		margin-top: 15px; }
-.footer-blank { width: 330px;
-		height: auto;
-		float: left; }
-.footer-box { width: 100%;
-		height: auto;
-		margin: auto;
-		margin-bottom: 15px; }
-.footer-box h6 { font-family: "open Sans";
-		 font-size: 20px;
-		 color: #fff;
-		 text-align: left;
-		 margin: 0px;
-		 font-weight: bold;
-		 text-decoration: uppercase;
-		 padding-bottom: 15px; }
-.footer-box ul { margin: 0px;
-		 padding: 0px; }
-.footer-box ul li { list-style-type: none;
-			padding-top: 5px; }
-.footer-box ul li a { font-family: "open Sans";
-			font-size: 14px;
-			color: #999; }
-@media only screen and (max-width: 1024px) {
-  body { margin: 0; }
-  #wrapper { width: auto; }
-  main {margin-left: 0; }
-  nav {float: none; width: auto; }
-  nav li { display: inline-block; padding: 0.5em; }
-  nav ul { text-align: center; }
-  nav a { border-style: none; }
-  h1, h2 { font-size: 120%; }
-  p { font-size: 90%; }
-}
-@media only screen and (max-width: 768px) {
-  h1, h2 { font-size: 100%; }
-  body { font-size: 90%; }
-  img { display: none; }
-  nav { padding: 0; }
-  nav li {display: block; }
-  nav a { display: block; padding: 0.5em 0;
-	  border-bottom: 2px ridge #00005D; }
-}
-</style>
+	<title>Contact Us</title>
+	<link href="gwfw.css" type="text/css" rel="stylesheet">
 </head>
+
+
 <body>
+
+<!--#######################################################################
+##########################  HEADER/MENU SECTION  ##########################
+########################################################################-->
 <h1>Contact Us</h1>
-    <div id = "home_menu">
-        <p>Home --- About Us --- Newsletter --- Events --- Contact Us ---Donate</p>
-    </div>
-	<form method="post" action="https://webdevbasics.net/scripts/demo.php">
-	 <fieldset><br>
-	  <label for="name">First Name:</label><br>
-	   <input type="text" name="FirstName" id="name" required="required"><br><br>
-	  <label for="name">Last Name:</label><br>
-	   <input type="text" name="LastName" id="name" required="required"><br><br>
-	  <label for="email">Email:</label><br>
-	   <input type="text" name="Email" id="email" required="required" placeholder="youremail@domain.com"><br><br>
-	  <label for="comments">Leave us your comments:</label><br>
-	  <textarea name="Comments" id="comments" rows="4" cols="40"></textarea><br><br>
-	   <input type="submit" value="Submit"><br><br>
-	 </fieldset>
+
+
+
+<div id = "menu">
+  <p><strong> *Insert Logo*/Home --- About Us --- Newsletter --- Events --- Contact Us --- Donate</strong></p>
+</div>
+<!--####################  END HEADER/MENU SECTION  #####################-->
+
+
+<!--#######################################################################
+##############################  MAIN SECTION  #############################
+########################################################################-->
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+	<fieldset><br>
+	<label for="name">First Name:</label><br>
+		<input type="text" name="FirstName" id="name" required="required"><br><br>
+	<label for="name">Last Name:</label><br>
+		<input type="text" name="LastName" id="name" required="required"><br><br>
+	<label for="email">Email:</label><br>
+		<input type="text" name="Email" id="email" required="required" placeholder="youremail@domain.com"><br><br>
+	<label for="comments">Leave us your comments:</label><br>
+	<textarea name="Comments" id="comments" rows="4" cols="40"></textarea><br><br>
+	  <input type="submit" value="Submit"><br><br>
+	</fieldset>
 	<br><br>
-	</form>
+</form>
+<!--#########################  END MAIN SECTION  ########################-->
+
+
+<!--#######################################################################
+#############################  FOOTER SECTION  ############################
+########################################################################-->
 <div class="footer-main">
 <div class="footer-inner">
+
 <div class="footer-blank">
 <div class="footer-box">
-<ul>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-</ul>
+	<ul>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+		<li><a href="#"></a></li>
+	</ul>
 </div>
 </div>
+
 <div class="footer-left">
 <div class="footer-box">
-<h6>About Us<h6>
-<ul>
-<li><a href="#">Board of Directors</a></li>
-<li><a href="#">Mission Statement</a></li>
-<li><a href="#">FAQs</a></li>
-</ul>
+	<h6>About Us<h6>
+	<ul>
+		<li><a href="#">Board of Directors</a></li>
+		<li><a href="#">Mission Statement</a></li>
+		<li><a href="#">FAQs</a></li>
+	</ul>
 </div>
 </div>
+
 <div class="footer-left">
 <div class="footer-box">
-<h6>Support<h6>
-<ul>
-<li><a href="#">Volunteering Opportunities</a></li>
-<li><a href="#">Donate Today</a></li>
-<li><a href="#">Shop/Buy the Book</a></li>
-</ul>
+	<h6>Support<h6>
+	<ul>
+		<li><a href="#">Volunteering Opportunities</a></li>
+		<li><a href="#">Donate Today</a></li>
+		<li><a href="#">Shop/Buy the Book</a></li>
+	</ul>
 </div>
 </div>
-<div class="clr"></div>
+	
+	<div class="clr"></div>
+
 </div>
 </div>
+<!--########################  END FOOTER SECTION  #########################-->
+
 </body>
 </html>

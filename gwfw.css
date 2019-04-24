@@ -1,7 +1,105 @@
-body {
-    /* applies to all */
+
+
+* { margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; }
+
+body { font-family: Helvetica; }
+fieldset { width: 450px; }
+a { text-decoration: none;
+	outline: none; }
+a img { border: none;}
+
+
+/*################################################################
+########################## --MENU-- ##############################
+################################################################*/
+.topnavbackgrnd {
+    background-color: #333;
+    width: 100%;  }
+
+.topnav {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    overflow: hidden; }
+  
+.topnav a {
+    margin: auto;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+    font-size: 17px; }
+
+.non_home { float: right; }
+
+.donate {background-color: maroon; }
+  
+.topnav a:hover,
+.topnav a.active {
+    background-color: #ddd;
+    color: black; }
+/*################################################################*/
+
+
+.clr { clear: both; }
+.footer-main { width: 100%;
+		height: auto;
+		margin: auto;
+		background-color: #3d3d3d;
+		padding: 30px 20px; }
+.footer-inner { width: 1200px;
+		height: auto;
+		margin: auto; }
+.footer-left { width: 425px;
+		height: auto;
+		float: left;
+		align: center;
+		margin-top: 15px; }
+.footer-blank { width: 330px;
+		height: auto;
+		float: left; }
+.footer-box { width: 100%;
+		height: auto;
+		margin: auto;
+		margin-bottom: 15px; }
+.footer-box h6 { font-family: "open Sans";
+		font-size: 20px;
+		color: #fff;
+		text-align: left;
+		margin: 0px;
+		font-weight: bold;
+		text-decoration: uppercase;
+		padding-bottom: 15px; }
+.footer-box ul { margin: 0px;
+		 padding: 0px; }
+.footer-box ul li { list-style-type: none;
+		padding-top: 5px; }
+.footer-box ul li a { font-family: "open Sans";
+		font-size: 14px;
+        color: #999; }
+            
+
+@media only screen and (min-width: 769px) {
+  body { margin: 0; }
+  #wrapper { width: auto; }
+  main {margin-left: 0; }
+  nav {float: none; width: auto; }
+  nav li { display: inline-block; padding: 0.5em; }
+  nav ul { text-align: center; }
+  nav a { border-style: none; }
+  h1, h2 { font-size: 120%; }
+  p { font-size: 90%; }
 }
 
-#home_menu {
-
+@media only screen and (max-width: 768px) {
+  h1, h2 { font-size: 100%; }
+  body { font-size: 90%; }
+  img { display: none; }
+  nav { padding: 0; }
+  nav li {display: block; }
+  nav a { display: block; padding: 0.5em 0;
+	  border-bottom: 2px ridge #00005D; }
 }
