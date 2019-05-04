@@ -60,11 +60,11 @@ a img { border: none;}
 .topnav a:hover{
     background-color: #ddd;
     color: black;
-    position: fixed; }
+    position: relative; }
 .topnav a.active {
     font-weight: bold;
     text-decoration: underline;
-    position: fixed; }
+    position: relative; }
 /*################################################################*/
 
 
